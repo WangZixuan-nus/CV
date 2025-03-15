@@ -8,35 +8,79 @@
         body {
             margin: 0;
             padding: 0;
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            color: #333;
         }
         
         .container {
             max-width: 800px;
-            margin: 0 auto;
+            margin: 50px auto;
             padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
         
         .language-switch {
-            position: absolute;  /* 改为绝对定位 */
+            position: absolute;
             top: 20px;
             right: 20px;
-            padding: 8px 16px;
+            padding: 10px 20px;
             background-color: #4CAF50;
             color: white;
             border: none;
             border-radius: 4px;
             cursor: pointer;
             font-size: 16px;
-            z-index: 1000;  /* 确保按钮在最上层 */
+            z-index: 1000;
+            transition: background-color 0.3s;
         }
 
         .language-switch:hover {
             background-color: #45a049;
         }
+        
+        h1, h2, h3, h4, h5, h6 {
+            color: #4CAF50;
+        }
+        
+        p {
+            line-height: 1.6;
+        }
+        
+        pre {
+            background-color: #f4f4f9;
+            padding: 10px;
+            border-radius: 4px;
+            overflow-x: auto;
+        }
+        
+        code {
+            background-color: #f4f4f9;
+            padding: 2px 4px;
+            border-radius: 4px;
+        }
+        
+        ul, ol {
+            padding-left: 20px;
+        }
+        
+        blockquote {
+            margin: 1em 0;
+            padding: 10px 20px;
+            background-color: #f4f4f9;
+            border-left: 5px solid #4CAF50;
+        }
+        
+        .loading {
+            text-align: center;
+            font-size: 18px;
+            color: #888;
+        }
     </style>
 </head>
 <body>
-    <!-- 将按钮移到 container 之前 -->
     <button class="language-switch" id="langSwitch">中文/English</button>
     <div class="container" id="content"></div>
 
@@ -45,7 +89,13 @@
         const chineseUrl = 'https://raw.githubusercontent.com/WangZixuan-nus/CV/main/academics_cn.md';
         let isEnglish = true;
 
+        function showLoading() {
+            const content = document.getElementById('content');
+            content.innerHTML = '<p class="loading">加载中...</p>';
+        }
+
         function loadMarkdown(url) {
+            showLoading();
             fetch(url)
                 .then(response => response.text())
                 .then(markdown => {
@@ -54,11 +104,10 @@
                 })
                 .catch(error => {
                     console.error('Error loading markdown:', error);
-                    document.getElementById('content').innerHTML = '加载失败，请稍后重试';
+                    document.getElementById('content').innerHTML = '<p class="loading">加载失败，请稍后重试</p>';
                 });
         }
 
-        // 确保 DOM 加载完成后再执行
         document.addEventListener('DOMContentLoaded', () => {
             loadMarkdown(englishUrl);
             
