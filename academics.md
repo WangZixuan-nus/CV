@@ -1,5 +1,5 @@
 # WANG ZIXUAN
-**Email:** e1352424@u.nus.edu | **Mobile:** (+65)80841249 | **Tel:** 80841249 | **Available from:** May 12 to Dec  
+**Email:** e1352424@u.nus.edu | **Mobile:** (+65)80841249 | **Available from:** May 12 to Dec  
 **Linkedin:** [www.linkedin.com/in/wang-zixuan-nus](www.linkedin.com/in/wang-zixuan-nus) | **Github:** [https://github.com/WangZixuan-nus](https://github.com/WangZixuan-nus)
 
 ## EDUCATION
