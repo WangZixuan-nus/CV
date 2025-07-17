@@ -2,7 +2,6 @@
 
 **Email:** e1352424@u.nus.edu  
 **Mobile:** (+65)80841249  
-**Availability:** From May 12 to Dec
 
 **LinkedIn:** [www.linkedin.com/in/wang-zixuan-nus](www.linkedin.com/in/wang-zixuan-nus)  
 **GitHub:** [https://github.com/WangZixuan-nus](https://github.com/WangZixuan-nus)
@@ -12,7 +11,7 @@
 ### National University of Singapore
 *Aug 2024 - Jan 2026*  
 **Master of Science in Statistics**  
-- GPA: 4.0
+- GPA: 4.21
 - Relevant Courses: Deep Learning, Network Statistical Analysis, Advanced Statistical Methods in Finance, Analysis Of Time Series Data
 
 ### Central University of Finance and Economics
