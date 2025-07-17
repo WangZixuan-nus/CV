@@ -11,13 +11,13 @@
 ### National University of Singapore
 *Aug 2024 - Jan 2026*  
 **Master of Science in Statistics**  
-- GPA: 4.21
+- GPA: 4.21/5.0
 - Relevant Courses: Deep Learning, Network Statistical Analysis, Advanced Statistical Methods in Finance, Analysis Of Time Series Data
 
 ### Central University of Finance and Economics
 *Sep 2019 - Jun 2023*  
 **Bachelor of Science in Applied Statistics**  
-- GPA: 3.7/4.5 (87.0/100); Comprehensive Quality Ranking: 5th/33
+- GPA: 3.7/4.0 (87.0/100); Comprehensive Quality Ranking: 5th/33
 - Outstanding Graduate Award (Top 5%), 8 Full Scholarship Recipient (4 consecutive years)
 - Relevant Courses: Statistical Computing, Database Management, Mathematical Statistics, Survey and Data Analysis, Sampling Techniques, Statistical Survey Practice, Mathematical and Statistical Modelling
 
